@@ -10,7 +10,7 @@ That includes Server and Client while I'm just using the Client to connect to th
 
 ## Start InfluxDB Client
 ```
-PS C:\Program Files\InfluxData\influxdb\influxdb-1.8.10-1> .\influx.exe -host 192.168.178.63 -username influx_user_1 -password influx_pw_1
+PS C:\Program Files\InfluxData\influxdb\influxdb-1.8.10-1> .\influx.exe -host 192.168.178.63 -username influx_user_1 -password ********
 
 Connected to http://192.168.178.63:8086 version 1.8.10
 InfluxDB shell version: 1.8.10
