@@ -30,7 +30,7 @@ influx_db_2
 ### SELECT command
 Example:
 ```
-> SELECT value FROM kWh WHERE entity_id='walli_energy_total' AND TIME >= now() - 1d
+> SELECT value FROM kWh WHERE entity_id='walli_energy_total' AND TIME >= now() - 10d
 name: kWh
 time                        value
 ----                        -----
