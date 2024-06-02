@@ -27,6 +27,14 @@ influx_db_2
 
 ## Data exploration
 [Explore data using InfluxQL](https://docs.influxdata.com/influxdb/v1.8/query_language/explore-data/)
+
+### USE command
+Which database to work on
+```
+> USE influx_db_1
+Using database influx_db_1
+```
+
 ### SELECT command
 Example:
 ```
@@ -55,6 +63,12 @@ time                 mean
 2023-04-27T00:00:00Z 23.734821428571422
 2023-04-28T00:00:00Z 24.624999999999996
 2023-04-29T00:00:00Z 26.23510638297872
+```
+
+### DELETE command
+Delete all data from `°C` measurement:
+```
+> DELETE FROM "°C"
 ```
 
 ### HELP command
